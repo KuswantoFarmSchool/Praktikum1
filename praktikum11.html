@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <tittle>Praktikum 11</tittle>
+</head>
+
+<body>
+    <h3>My First Google Maps</h3>
+    <div id="map" style="width:400px;height:400px;background:yellow"> </div>
+
+    <script> 
+    function myMap(){
+        var mapOptions = {
+            center : new google.maps.LatLng(51.5, -0.12),
+            zoom: 10,
+            mapTypeId: google.maps.mapTypeId.HYBRID
+        }
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    }
+    </script>
+
+    <br>
+    <br>
+    <SCRIPT src="https://www.google.co.id/maps/search/pecinta+hidroponik+pekalongan/@-7.0279855,109.5133869,12z/data=!3m1!4b1">
+    </SCRIPT>
+
+</body>
+</html>
